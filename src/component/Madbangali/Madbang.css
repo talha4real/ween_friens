@@ -1,0 +1,401 @@
+.logo-img {
+    width: calc(24vw/1.78);
+}
+
+
+@media (min-width: 200px) {
+    #hero {
+        min-height: calc(116vw/1.78);
+    }
+
+    .center-nav li a {
+        color: black !important;
+        font-size: x-large;
+    }
+
+    .center-nav li a:hover {
+        color: #dfc255 !important;
+    }
+
+    .center-nav li a.active {
+        color: #dfc255 !important;
+    }
+
+}
+
+@media (min-width: 500px) {
+    #hero {
+        min-height: calc(130vw/1.78);
+    }
+
+    .center-nav li a {
+        color: black !important;
+        font-size: x-large;
+    }
+
+    .center-nav li a:hover {
+        color: #dfc255 !important;
+    }
+
+    .center-nav li a.active {
+        color: #dfc255 !important;
+    }
+
+}
+
+@media(min-width:768px) {
+    #hero {
+        min-height: calc(135vw/1.78);
+    }
+
+    .center-nav li a {
+        color: black !important;
+        font-size: x-large;
+    }
+
+    .center-nav li a:hover {
+        color: #dfc255 !important;
+    }
+
+    .center-nav li a.active {
+        color: #dfc255 !important;
+    }
+}
+
+@media(min-width:1600px) {
+    #hero {
+        min-height: calc(135vw/1.78);
+    }
+
+    .center-nav li a {
+        color: black !important;
+        font-size: x-large;
+    }
+
+    .center-nav li a:hover {
+        color: #dfc255 !important;
+    }
+
+    .center-nav li a.active {
+        color: #dfc255 !important;
+    }
+
+
+}
+.connect-text {
+    font-size: 14px !important;
+    margin-top: -28px;
+    margin-left: -133px;
+}
+
+
+.right-logos {
+    width: 70px;
+    height: auto;
+}
+
+.right-logos2 {
+    width: 60px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .about-text {
+        color: white;
+        text-align: center;
+        line-height: calc(0.2rem + 1.6vw);
+        font-size: calc(0.2rem + 1.6vw);
+        padding-bottom: 0px;
+    }
+}
+
+@media(min-width:768px) {
+    .about-text {
+        color: white;
+        text-align: center;
+        line-height: calc(0.2rem + 1.6vw);
+        font-size: calc(0.2rem + 1.6vw);
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .about-container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .about-container {
+        max-width: 1320px;
+    }
+}
+
+.about-container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.art-image {
+    width: 80%;
+}
+
+.second-art-left {
+    /* padding: 6% 10% 10% 10%; */
+    z-index: -2;
+    width: 33%;
+}
+
+.second-art-right {
+    /* padding: 5% 10% 15% 10%; */
+    z-index: -2;
+    width: 33%;
+}
+
+.first-art-left {
+    padding-right: 12%;
+}
+
+.first-art-right {
+    padding-left: 12%;
+}
+
+@media(max-width:765px) {
+    .second-art-row {
+        margin-top: calc(-30.8vw/1.78) !important;
+    }
+}
+
+@media(min-width:765px) {
+    .second-art-row {
+        margin-top: calc(-30.8vw/1.78) !important;
+    }
+}
+
+.plan-heading {
+    color: #dfc255;
+    font-size: calc(1rem + 1.6vw);
+}
+
+.plan-subheading {
+    color: black;
+    font-size: calc(0.8rem + 1.6vw);
+}
+
+
+
+.plan-text {
+    line-height: calc(0.2rem + 1.6vw);
+    font-size: calc(0.2rem + 1.6vw);
+    color: black;
+}
+
+
+.hand {
+    width: 120px;
+}
+
+
+
+@media(min-width:200px) {
+    #plan {
+        margin-top: calc(-6vw/1.78);
+    }
+
+    #art {
+        margin-top: calc(32vw/1.78);
+    }
+
+}
+
+@media(min-width:388px) {
+    #plan {
+        margin-top: calc(-3.9vw/1.78);
+    }
+
+    #art {
+        margin-top: calc(36vw/1.78);
+    }
+
+}
+
+@media(min-width:416px) {
+    #plan {
+        margin-top: calc(-6vw/1.78);
+    }
+
+    #art {
+        margin-top: calc(44vw/1.78);
+    }
+
+}
+
+
+@media(min-width:765px) {
+    #plan {
+        margin-top: calc(1vw/1.78);
+    }
+
+    #art {
+        margin-top: calc(45vw/1.78);
+    }
+
+}
+
+@media(min-width:991) {
+    #plan {
+        margin-top: calc(11vw/1.78);
+    }
+
+    #art {
+        margin-top: calc(45vw/1.78);
+    }
+
+}
+
+@media(min-width:1200px) {
+    #plan {
+        margin-top: calc(7vw/1.78);
+    }
+
+    #art {
+        margin-top: calc(55vw/1.78);
+    }
+
+}
+
+.lower-footer {
+    padding: 0;
+    margin: 0;
+}
+
+.upper-footer {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+@media(min-width:200px) {
+    .footer-link {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+    }
+
+    footer {
+        margin-top: calc(32.2vw/1.78);
+    }
+
+    .footer-disclaimer {
+        font-size: 0.4rem;
+    }
+}
+
+@media(min-width:411px) {
+    .footer-link {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+    }
+
+    footer {
+        margin-top: calc(49.2vw/1.78);
+    }
+
+    .footer-disclaimer {
+        font-size: 0.4rem;
+    }
+}
+
+@media(min-width:500px) {
+    .footer-link {
+        text-decoration: none;
+        font-size: 24px;
+        color: white;
+    }
+
+    footer {
+        margin-top: calc(45.19999999999999vw/1.78);
+    }
+
+    .footer-disclaimer {
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:765px) {
+    .footer-link {
+        text-decoration: none;
+        font-size: 24px;
+        color: white;
+    }
+
+    footer {
+        margin-top: calc(50.19999999999999vw/1.78);
+    }
+
+    .footer-disclaimer {
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:1600px) {
+    .footer-link {
+        text-decoration: none;
+        font-size: 32px;
+        color: white;
+    }
+
+    footer {
+        margin-top: calc(50.2vw/1.78);
+    }
+}
+
+.navbar-collapse.show {
+    position: absolute;
+    width: 100%;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
+    top: 10vh;
+    background-color: white;
+    padding: 8px;
+    height: 50vh;
+}
+
+.navbar-collapse.collapsing {
+    position: absolute;
+    width: 100%;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
+    top: 10vh;
+    background-color: white;
+    padding: 8px;
+    height: 50vh;
+}
+
+.upper-footer div a:hover {
+    color: #dfc255 !important;
+}
