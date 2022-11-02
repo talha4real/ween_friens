@@ -12,12 +12,13 @@ import {
   removeAccountChangeListener,
 } from '@identity.com/solana-gateway-ts';
 
-export const CTAButton = styled(Button)`
+export const CTAButton = styled.button`
   width: 100%;
   height: 60px;
+  border-radius: 15px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+  background: black;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -154,7 +155,7 @@ export const MintButton = ({
           setClicked(false);
         }
       }}
-      variant="contained"
+      // variant="contained"
     >
       {getMintButtonContent()}
     </CTAButton>
